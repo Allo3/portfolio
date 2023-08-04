@@ -1,0 +1,111 @@
+root {
+    --font-color-grey : #ABB2BF;
+}
+*,h1,h2,h3,h4,h5,h6,p,a,button,span {
+    font-family: Montserrat, serif;
+}
+body {
+    max-width: 1366px;
+    margin: auto;
+    background: #282C33;
+}
+main {
+    width: 100%;
+    margin: auto;
+}
+.navbar {
+    width: 90%;
+    text-align: center;
+    margin: auto auto 40px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+header svg {
+    display: flex;
+    margin: auto auto 20px;
+}
+.navbar h1 {
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 5px;
+
+}
+
+.links a {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+footer {
+    position: relative;
+    bottom: 0;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background: rgba(199, 120, 221, 0.4);
+    color: #FFF;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1240px) {
+    .navbar {
+        width: 100%;
+    }
+    .navbar h1 {
+        font-size: 32px;
+    }
+    .links a {
+        font-size: 16px;
+    }
+    .footer {
+        height: 150px;
+    }
+
+    .footer-links a {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
+    .navbar h1 {
+        font-size: 28px;
+    }
+    .links a {
+        font-size: 14px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+    .footer-links p {
+        width: 40%;
+        margin: auto auto 20px;
+    }
+}

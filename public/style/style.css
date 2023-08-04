@@ -1,0 +1,15 @@
+root {
+    --font-color-grey : #ABB2BF;
+}
+*,h1,h2,h3,h4,h5,h6,p,a,button,span {
+    font-family: Montserrat, serif;
+}
+body {
+    max-width: 1366px;
+    margin: auto;
+    background: #282C33;
+}
+main {
+    width: 100%;
+    margin: auto;
+}

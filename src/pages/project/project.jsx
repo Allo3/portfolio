@@ -7,7 +7,7 @@ import remarkGfm from "remark-gfm";
 import ReactMarkdown from "react-markdown";
 import {Prism as SyntaxHighlighter} from "react-syntax-highlighter";
 import {vscDarkPlus} from "react-syntax-highlighter/dist/esm/styles/prism";
-import {useParams, useSearchParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 
 function splitCodeAndText(content) {
     const codeRegex = /```([\w-]+)?\n([\s\S]*?)\n```/g;
@@ -35,7 +35,7 @@ function splitCodeAndText(content) {
 }
 
 export default function Project({params}) {
-    const { slug } = useParams();
+    const {slug} = useParams();
     console.log("slug", slug)
     const [project, setProject] = useState();
 
@@ -77,9 +77,18 @@ export default function Project({params}) {
                         <ReactMarkdown className="infos-container" key={index} remarkPlugins={[remarkGfm]}>
                             {block.content}
                         </ReactMarkdown>))}
-                    <img src={process.env.REACT_APP_STRAPI_STATIC_FILE + project.attributes.screenMedia.data.attributes.url}
-                           alt={project.attributes.title}
-                    />
+                    {process.env.NEXT_PUBLIC_ENVIRONMENT === "development" ? (
+
+                        <img
+                            src={process.env.REACT_APP_STRAPI_STATIC_FILE + project.attributes.screenMedia.data.attributes.url}
+                            alt={project.attributes.title}
+                        />
+                    ) : (
+                        <img
+                            src={project.attributes.screenMedia.data.attributes.url}
+                            alt={project.attributes.title}
+                        />
+                    )}
                 </div>
             </div>) : (<Loading/>)}
         </>

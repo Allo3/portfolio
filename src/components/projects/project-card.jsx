@@ -14,10 +14,17 @@ export function ProjectCard({project}) {
         <div key={project.id}>
             <div className="project-img">
                 <Link to={'/project/' + project.attributes.slug} as="/project">
-                    <img width={500} height={500}
-                           src={process.env.REACT_APP_STRAPI_STATIC_FILE + project.attributes.media.data.attributes.url}
-                           alt={project.attributes.media.data.attributes.name}
-                    />
+                    {process.env.NEXT_PUBLIC_ENVIRONMENT === "development" ? (
+                        <img width={500} height={500}
+                             src={process.env.REACT_APP_STRAPI_STATIC_FILE + project.attributes.media.data.attributes.url}
+                             alt={project.attributes.media.data.attributes.name}
+                        />
+                    ): (
+                        <img width={500} height={500}
+                             src={project.attributes.media.data.attributes.url}
+                             alt={project.attributes.media.data.attributes.name}
+                        />
+                    )}
                 </Link>
             </div>
             <Tags

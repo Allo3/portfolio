@@ -23,8 +23,6 @@ R
 "src/assets/styles/project-page.css,1\0\10609d39ee17730221053cf618ac0838f877bf43
 J
 src/assets/styles/page.css,2\a\2abba8e61fd4be5d94db6087c32c1e596912647a
-J
-src/pages/home/accueil.jsx,e\7\e79d52357ab8ca061d14fa676300d8c4265b6616
 H
 public/images/vercel.svg,9\6\963cd45289d24e3cfbe719aa0fa2f6fe3d46f290
 I

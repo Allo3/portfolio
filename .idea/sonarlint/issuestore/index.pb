@@ -30,8 +30,6 @@ A
 package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
 \
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
-J
-src/pages/home/accueil.jsx,e\7\e79d52357ab8ca061d14fa676300d8c4265b6616
 I
 src/pages/Error/error.jsx,b\1\b188857b11222c31c2a4e05da8ce27b854c29033
 P

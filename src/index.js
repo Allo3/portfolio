@@ -16,6 +16,7 @@ ReactDOM.render(
                 <Route path="/accueil" element={<Accueil />} />
                 <Route path="/project/:slug" element={<Project />} />
                 <Route path="*" element={<NotFound />} />
+                <Route path="/project/*" element={<NotFound />} />
             </Routes>
             <Footer />
         </Router>

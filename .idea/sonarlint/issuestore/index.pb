@@ -2,8 +2,6 @@
 R
 "src/assets/styles/project-card.css,2\5\25808510d24eef15bd8e17697304a599c4f4d2b4
 J
-src/assets/styles/home.css,7\c\7cd2fd682e2c5a6c22fafec4aa2b5bf95097a411
-J
 src/assets/styles/tags.css,8\2\82e6ac1ab42b58af47e307e3f820b8ccd089cc58
 M
 src/assets/styles/loading.css,7\b\7beb87f0a66db27e2e7343fa20d89a27f2e6e6af
@@ -11,8 +9,6 @@ R
 "src/assets/styles/project-page.css,1\0\10609d39ee17730221053cf618ac0838f877bf43
 J
 src/assets/styles/page.css,2\a\2abba8e61fd4be5d94db6087c32c1e596912647a
-F
-public/style/style.css,1\9\19dc8af03bc64e0faf5bbb906c6f096c7e29f96d
 A
 public/robots.txt,d\a\dac799070c2d0c2fa24462b02c1f2dcc3fb3a1e9
 <

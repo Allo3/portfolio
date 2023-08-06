@@ -3,10 +3,10 @@ import "../../assets/styles/home.css"
 function Header() {
     return (
     <header>
-        <nav className="footer">
+        <nav className="navbar">
             <h1><a href="/">Portfolio</a></h1>
             <div className="links">
-                <Link to="/#contact">Contact</Link>
+                <Link to="/#footer">Contact</Link>
             </div>
         </nav>
         <svg xmlns="http://www.w3.org/2000/svg" width="90%" height="4" opacity="0.5" viewBox="0 0 511 2" fill="none">

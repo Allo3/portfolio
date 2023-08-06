@@ -7,8 +7,6 @@ D
 src/services/slug.js,1\1\117b43b8a1b96af08ddf006c5635aa6f6b4c84ce
 R
 "src/assets/styles/project-card.css,2\5\25808510d24eef15bd8e17697304a599c4f4d2b4
-J
-src/assets/styles/home.css,7\c\7cd2fd682e2c5a6c22fafec4aa2b5bf95097a411
 G
 src/services/project.js,d\5\d52fee5b1fec27d6c0a3d2d565400ae378d0150e
 J
@@ -27,8 +25,6 @@ Z
 *public/images/map-marker-4-svgrepo-com.svg,3\a\3a435e46af399408f90495e3363f7b2d5f6e08fb
 F
 public/images/next.svg,8\b\8b56736567fecad0269c528c05124885aa2c9b50
-F
-public/style/style.css,1\9\19dc8af03bc64e0faf5bbb906c6f096c7e29f96d
 Q
 !public/images/icons8-linkedin.svg,c\6\c64606f0a82d4479daf7c5c4bc82a41329af024c
 F

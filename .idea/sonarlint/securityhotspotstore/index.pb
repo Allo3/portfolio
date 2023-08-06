@@ -39,16 +39,12 @@ Q
 !public/images/icons8-linkedin.svg,c\6\c64606f0a82d4479daf7c5c4bc82a41329af024c
 F
 public/images/mail.svg,6\4\64560c1efe7204be2b02f39d5c95e2cbc4648f8a
-<
-src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d
 A
 public/robots.txt,d\a\dac799070c2d0c2fa24462b02c1f2dcc3fb3a1e9
 <
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
-D
-public/manifest.json,4\2\42e89cd2213b9d5dfae4f63522702c623170d792
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -58,3 +54,5 @@ A
 package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
 \
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

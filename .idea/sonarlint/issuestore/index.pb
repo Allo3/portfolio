@@ -19,8 +19,6 @@ A
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
-D
-public/manifest.json,4\2\42e89cd2213b9d5dfae4f63522702c623170d792
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -38,8 +36,6 @@ P
  src/components/layout/header.jsx,9\a\9ae87132b648693ac26c54fb965e671f6dc0e76a
 Q
 !public/images/icons8-linkedin.svg,c\6\c64606f0a82d4479daf7c5c4bc82a41329af024c
-<
-src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d
 M
 src/components/home/intro.jsx,0\4\04363c5c21685d83daca5f219f77c5878a25a7d8
 R
@@ -58,3 +54,5 @@ D
 src/services/slug.js,1\1\117b43b8a1b96af08ddf006c5635aa6f6b4c84ce
 H
 public/images/vercel.svg,9\6\963cd45289d24e3cfbe719aa0fa2f6fe3d46f290
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

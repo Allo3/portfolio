@@ -3,10 +3,6 @@ R
 "src/components/loading/loading.jsx,3\1\31ae0909a0d9523b34f5b92f9c390db23610eddc
 M
 src/components/home/intro.jsx,0\4\04363c5c21685d83daca5f219f77c5878a25a7d8
-P
- src/components/layout/footer.jsx,f\d\fd593e81211b6264bcb931a4496f9e9ce0aab61a
-P
- src/components/layout/header.jsx,9\a\9ae87132b648693ac26c54fb965e671f6dc0e76a
 D
 src/services/slug.js,1\1\117b43b8a1b96af08ddf006c5635aa6f6b4c84ce
 R
@@ -33,8 +29,6 @@ F
 public/images/next.svg,8\b\8b56736567fecad0269c528c05124885aa2c9b50
 F
 public/style/style.css,1\9\19dc8af03bc64e0faf5bbb906c6f096c7e29f96d
-<
-src/logo.svg,6\d\6d3a8cd532ece5b4ddbd4b3b6a678ba686d300bc
 Q
 !public/images/icons8-linkedin.svg,c\6\c64606f0a82d4479daf7c5c4bc82a41329af024c
 F

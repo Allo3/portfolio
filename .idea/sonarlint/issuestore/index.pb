@@ -30,18 +30,12 @@ A
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
 I
 src/pages/Error/error.jsx,b\1\b188857b11222c31c2a4e05da8ce27b854c29033
-P
- src/components/layout/footer.jsx,f\d\fd593e81211b6264bcb931a4496f9e9ce0aab61a
-P
- src/components/layout/header.jsx,9\a\9ae87132b648693ac26c54fb965e671f6dc0e76a
 Q
 !public/images/icons8-linkedin.svg,c\6\c64606f0a82d4479daf7c5c4bc82a41329af024c
 M
 src/components/home/intro.jsx,0\4\04363c5c21685d83daca5f219f77c5878a25a7d8
 R
 "src/components/loading/loading.jsx,3\1\31ae0909a0d9523b34f5b92f9c390db23610eddc
-<
-src/logo.svg,6\d\6d3a8cd532ece5b4ddbd4b3b6a678ba686d300bc
 F
 public/images/mail.svg,6\4\64560c1efe7204be2b02f39d5c95e2cbc4648f8a
 Z

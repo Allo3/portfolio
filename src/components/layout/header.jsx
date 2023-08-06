@@ -3,7 +3,7 @@ import "../../assets/styles/home.css"
 function Header() {
     return (
     <header>
-        <nav className="navbar">
+        <nav className="footer">
             <h1><a href="/">Portfolio</a></h1>
             <div className="links">
                 <Link to="/#contact">Contact</Link>

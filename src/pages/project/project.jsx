@@ -78,7 +78,7 @@ export default function Project({params}) {
                             {block.content}
                         </ReactMarkdown>))}
                     {<img
-                        src={project.attributes.screenMedia.data.attributes.url}
+                        src={process.env.REACT_APP_STRAPI_STATIC_FILE + project.attributes.screenMedia.data.attributes.url}
                         alt={project.attributes.title}
                     />}
                 </div>

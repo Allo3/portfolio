@@ -7,7 +7,8 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 export function ProjectCard({project}) {
-    console.log("process.env.NEXT_PUBLIC_ENVIRONMENT", process.env.REACT_APP_STRAPI_STATIC_FILE);
+    console.log("process.env.REACT_APP_STRAPI_STATIC_FILE", process.env.REACT_APP_STRAPI_STATIC_FILE);
+    console.log("process.env.REACT_APP_STRAPI_URL", process.env.REACT_APP_STRAPI_URL);
     console.log("project.attributes.media.data.attributes.url", project.attributes.media.data.attributes.url);
     console.log("project.attributes.media.data.attributes.name", project.attributes.media.data.attributes.name);
     return (

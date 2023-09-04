@@ -77,18 +77,10 @@ export default function Project({params}) {
                         <ReactMarkdown className="infos-container" key={index} remarkPlugins={[remarkGfm]}>
                             {block.content}
                         </ReactMarkdown>))}
-                    {process.env.NEXT_PUBLIC_ENVIRONMENT === "development" ? (
-
-                        <img
-                            src={process.env.REACT_APP_STRAPI_STATIC_FILE + project.attributes.screenMedia.data.attributes.url}
-                            alt={project.attributes.title}
-                        />
-                    ) : (
-                        <img
-                            src={project.attributes.screenMedia.data.attributes.url}
-                            alt={project.attributes.title}
-                        />
-                    )}
+                    {<img
+                        src={project.attributes.screenMedia.data.attributes.url}
+                        alt={project.attributes.title}
+                    />}
                 </div>
             </div>) : (<Loading/>)}
         </>

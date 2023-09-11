@@ -30,7 +30,7 @@ export function ProjectCard({project}) {
                 <p>{project.attributes.desc}</p>
                 <div className="buttons-container">
                     <Link to={'/project/' + project.attributes.slug} target="_blank">
-                        <button className="custom-btn btn-12"><span>Cliquez ici !</span><span>Détaills</span>
+                        <button className="custom-btn btn-12"><span>Cliquez ici !</span><span>Détails</span>
                         </button>
                     </Link>
                     <Link to={"https://github.com/Allo3/" + project.attributes.slug} target="_blank">

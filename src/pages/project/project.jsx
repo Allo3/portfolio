@@ -69,19 +69,22 @@ export default function Project({params}) {
     return (<>
         <>
             {project ? (<div className="info-logo">
-                <div className="infos-desc">
-                    {contentBlocks.map((block, index) => block.type === "code" ? (
-                        <SyntaxHighlighter key={index} language={block.language} style={vscDarkPlus}>
-                            {block.content}
-                        </SyntaxHighlighter>) : (
-                        <ReactMarkdown className="infos-container" key={index} remarkPlugins={[remarkGfm]}>
-                            {block.content}
-                        </ReactMarkdown>))}
-                    {<img
-                        src={process.env.REACT_APP_STRAPI_STATIC_FILE + project.attributes.screenMedia.data.attributes.url}
-                        alt={project.attributes.title}
-                    />}
+                <div className="tbd-projects">
+                    <h3>En cours d'écriture...</h3>
                 </div>
+                {/*<div className="infos-desc">*/}
+                {/*    {contentBlocks.map((block, index) => block.type === "code" ? (*/}
+                {/*        <SyntaxHighlighter key={index} language={block.language} style={vscDarkPlus}>*/}
+                {/*            {block.content}*/}
+                {/*        </SyntaxHighlighter>) : (*/}
+                {/*        <ReactMarkdown className="infos-container" key={index} remarkPlugins={[remarkGfm]}>*/}
+                {/*            {block.content}*/}
+                {/*        </ReactMarkdown>))}*/}
+                {/*    {<img*/}
+                {/*        src={process.env.REACT_APP_STRAPI_STATIC_FILE + project.attributes.screenMedia.data.attributes.url}*/}
+                {/*        alt={project.attributes.title}*/}
+                {/*    />}*/}
+                {/*</div>*/}
             </div>) : (<Loading/>)}
         </>
     </>);

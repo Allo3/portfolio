@@ -45,6 +45,14 @@
     }
 }
 
+.tbd-projects {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 @media screen and (max-width: 768px) {
     .infos-desc {
         width: 90%;
